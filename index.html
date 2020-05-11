@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Love</title>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="font-family: 'Dancing Script', cursive;">
+  <div class="contain">
+    <div id="cloud-intro">
+      <div class=" container center-align">
+        <div class="col s12 m6">
+          <div class="card pink lighten-4" style=" height: 50rem;">
+            <div class="card-content red-text darken-3">
+              <span class="card-title" style="font-size: 4rem;">Give me Love</span>
+              <p style="font-size: 1.5rem;">We provide quality love messaging either a little self love with our Love me
+                Package or Show your loved
+                ones daily sweet love with our messages <br> Check our <a href="#packages">packages</a> below </p>
+            </div>
+            <div class="card-action">
+              <span class="card-title" style="font-size: 4rem;">Packages</span>
+              <ul class="collapsible ">
+                <li>
+                  <div class="collapsible-header purple lighten-1"><i class="material-icons">filter_drama</i>First</div>
+                  <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                </li>
+                <li>
+                  <div class="collapsible-header purple lighten-2"><i class="material-icons">place</i>Second</div>
+                  <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                </li>
+                <li>
+                  <div class="collapsible-header purple lighten-3"><i class="material-icons">whatshot</i>Third</div>
+                  <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                </li>
+              </ul>
+            </div>
+            <div class="card-action black-text">
+              <a class="waves-effect waves-light btn red darken-3 modal-trigger" href="#modal1"
+                style="border-radius:1.5rem;">I want Love</a>
+
+              <div id="modal1" class="modal">
+                <div class="modal-content">
+                  <h4 class="blue-text">Fill the Form Below</h4>
+                  <form action="#">
+                    <div class="row">
+                      <p> <label style="font-size: 2rem;" class="blue-text"> Select Package</label> </p>
+                      <label class="blue-text">
+                        <input class="blue-text" name="group1" type="radio" checked />
+                        <span>Red</span>
+                      </label>
+
+                      <label class="blue-text">
+                        <input name="group1" type="radio" />
+                        <span>Yellow</span>
+                      </label>
+
+                      <label class="blue-text">
+                        <input name="group1" type="radio" />
+                        <span>Green</span>
+                      </label>
+
+                      <p> <label style="font-size: 2rem;" class="blue-text"> Name</label> </p>
+                      <div class="row">
+                        <div class="input-field col s6">
+                          <input  id="first_name" type="text" class="validate">
+                          <label for="first_name">First Name</label>
+                        </div>
+                        <div class="input-field col s6">
+                          <input id="last_name" type="text" class="validate">
+                          <label for="last_name">Last Name</label>
+                        </div>
+                      </div>
+
+
+                    </div>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <script>
+    M.AutoInit();
+  </script>
+</body>
+
+</html>
